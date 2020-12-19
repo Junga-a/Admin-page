@@ -1,4 +1,4 @@
-package com.example.study.repositoryTest;
+package com.example.study.repository;
 
 import com.example.study.model.entity.OrderDetail;
 import org.junit.jupiter.api.Assertions;

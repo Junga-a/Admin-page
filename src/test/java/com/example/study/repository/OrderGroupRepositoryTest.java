@@ -1,4 +1,4 @@
-package com.example.study.repositoryTest;
+package com.example.study.repository;
 
 import com.example.study.component.LoginUserAuditorAware;
 import com.example.study.config.JpaConfig;

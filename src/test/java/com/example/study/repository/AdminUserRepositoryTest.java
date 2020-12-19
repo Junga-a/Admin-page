@@ -1,4 +1,4 @@
-package com.example.study.repositoryTest;
+package com.example.study.repository;
 
 import com.example.study.component.LoginUserAuditorAware;
 import com.example.study.config.JpaConfig;
@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.context.annotation.Import;
-
-import java.time.LocalDateTime;
 
 @DataJpaTest                                                                    // JPA 테스트 관련 컴포넌트만 Import
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)    // 실제 db 사용
