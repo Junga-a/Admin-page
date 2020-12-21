@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -17,9 +18,9 @@ public class OrderGroupApiResponse {
 
     private Long id;
 
-    private OrderType status;
+    private String status;
 
-    private String orderType;
+    private OrderType orderType;
 
     private String revAddress;
 
@@ -37,6 +38,7 @@ public class OrderGroupApiResponse {
 
     private Long userId;
 
-
+    private List<ItemApiResponse> itemApiResponseList;
 
 }
+

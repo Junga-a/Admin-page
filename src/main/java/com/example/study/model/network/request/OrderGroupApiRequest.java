@@ -17,9 +17,9 @@ public class OrderGroupApiRequest {
 
     private Long id;
 
-    private OrderType status;
+    private String status;
 
-    private String orderType;
+    private OrderType orderType;
 
     private String revAddress;
 
@@ -40,4 +40,3 @@ public class OrderGroupApiRequest {
 
 
 }
-

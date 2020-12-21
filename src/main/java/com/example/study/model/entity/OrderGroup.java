@@ -28,10 +28,10 @@ public class OrderGroup {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING)
-    private OrderType status;
+    private String status;
 
-    private String orderType;   // 주문의 형태 - 일괄 / 개별
+    @Enumerated(EnumType.STRING)
+    private OrderType orderType;   // 주문의 형태 - 일괄 / 개별
 
     private String revAddress;
 

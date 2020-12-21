@@ -51,4 +51,3 @@ public class PartnerApiLogicService extends BaseService<PartnerApiRequest, Partn
         return Header.OK(body);
     }
 }
-
